@@ -1,1 +1,1 @@
-# Kubernetes Cluster Management
+# Kubernetes manifests for cluster management
