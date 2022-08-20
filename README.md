@@ -20,6 +20,11 @@ oc apply -f argocd/apps/cluster-config.yaml -n openshift-gitops
 Sync `cluster-config` application mannualy on ArgoCD web console.
 
 ### Create non cluster-wide resources
+
+Application config repositories：
+- [spring-petclinic-config](https://github.com/xdevops-caj-lab-gitops/spring-petclinic-config)
+- [parksmap-config](https://github.com/xdevops-caj-lab-gitops/parksmap-config)
+
 Create non cluster-wide resources in customized `myargocd` argocd instance:
 ```bash
 # parksmap
