@@ -4,9 +4,9 @@
 
 已经按照[gitops-repo-example](https://github.com/xdevops-caj-lab-gitops/gitops-repo-example)指引：
 - 配置好`openshift-gitops`的ArgoCD的Admin权限
-- 已经配置好自定义的`myargocd`的ArgoCD实例
-- 已经配置好`myargocd`的ArgoCD的Admin权限
-- 已经执行Clean Up命令
+- 配置好自定义的`myargocd`的ArgoCD实例
+- 配置好`myargocd`的ArgoCD的Admin权限
+- 执行Clean Up命令
 
 ### Create cluster-wide resoruces
 Refer to below "Clean Up" section to clean up previous created ressources if necessary.
