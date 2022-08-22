@@ -8,10 +8,9 @@
 - 配置好`myargocd`的ArgoCD的Admin权限
 - 执行Clean Up命令
 
-### Create cluster-wide resoruces
-Refer to below "Clean Up" section to clean up previous created ressources if necessary.
+### Create cluster-scoped resoruces
 
-Create cluster-wide resources in default `openshift-gitops` argocd instance:
+Create cluster-scoped resources in default `openshift-gitops` argocd instance:
 
 ```bash
 oc apply -f argocd/apps/cluster-config.yaml -n openshift-gitops
@@ -19,7 +18,7 @@ oc apply -f argocd/apps/cluster-config.yaml -n openshift-gitops
 
 Sync `cluster-config` application mannualy on ArgoCD web console.
 
-### Create non cluster-wide resources
+### Create application-scoped resources
 
 Application config repositories：
 - [spring-petclinic-config](https://github.com/xdevops-caj-lab-gitops/spring-petclinic-config)
