@@ -24,7 +24,7 @@ Application config repositories：
 - [spring-petclinic-config](https://github.com/xdevops-caj-lab-gitops/spring-petclinic-config)
 - [parksmap-config](https://github.com/xdevops-caj-lab-gitops/parksmap-config)
 
-Create non cluster-wide resources in customized `myargocd` argocd instance:
+Create application-scoped resources in customized `myargocd` argocd instance:
 ```bash
 # parksmap
 oc label namespace parksmap-dev argocd.argoproj.io/managed-by=myargocd
